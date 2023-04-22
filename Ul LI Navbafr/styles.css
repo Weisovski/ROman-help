@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background: #c31432;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 0 20px;
+    flex-wrap:wrap;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+   
+
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.logo a {
+    display: flex;
+    color: #fff;
+}
+
+.links {
+display: flex;
+}
+
+.links li {
+    margin-left: 20px;
+}
+
+.links li a {
+    color: #fff;
+
+}
+
+
+
+.search-bar input {
+padding: 7px;
+border:1px solid #240b36;
+border-radius: 5px;
+width: 180px;
+background: transparent;
+color: #fff;
+}
+
+.search-bar button {
+    padding: 8px;
+    border: none;
+    background-color: #240b36;
+    color: #fff;
+    border-radius: 5px;
+    margin-left: 0px;
+    cursor: pointer;
+}
+
+
+
+.sign-up a {
+    background-color: #240b36;
+    color: #fff;
+    padding: 10px 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.links a:hover {
+color: #c31432;
+border-bottom: 1px solid #c31432;
+
+}
+
+
+.container {
+    /* display: grid; */
+    /* grid-template-columns: repeat(3, 1fr); Creates 3 equal-width columns */
+    /* grid-gap: 20px; Adds 10px gap between grid items */
+    height: 500px;
+    margin: 100px;
+    justify-content: center;
+    position: relative;
+      
+}
+  
+.box {
+    background-color: #f2f2f2;
+    padding: 20px;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    position: relative;
+    height: 500px;
+
+   
+    
+}
+
+/* .box:nth-child(1) {
+    background: url("10.0_Dragonflight_BrowsingCard_960x540.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: block;
+    
+    
+} */
+
+.box:nth-child(2){
+    background: url("1667411907738.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.box:hover {
+    border: 2px solid black;
+}
+
+
+.container-neco {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates 3 equal-width columns */
+    grid-gap: 20px; /* Adds 10px gap between grid items */
+    
+
+}
+
+.card {
+display: block;
+width: 100%;
+background-size: cover;
+}
